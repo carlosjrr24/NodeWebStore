@@ -52,8 +52,8 @@ var express         = require("express"),
   app.use("/products/:id/comments", commentRoutes)
 
   app.listen(8001, function(){
-    console.log("funca!")
+    console.log("Funcionando....")
 })
 
 
-module.exports = app ; // Para testear
+//module.exports = app ; // Para testear
